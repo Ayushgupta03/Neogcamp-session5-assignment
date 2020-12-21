@@ -5,7 +5,9 @@ import { useState } from "react";
 const foodDB = {
   chinese: [
     { name: "Hakka noodles", rating: "4/5" },
-    { name: "Machurian", rating: "3.5/5" }
+    { name: "Machurian", rating: "3.5/5" },
+    { name: "Momos", rating: "3/5" },
+    { name: "Manchao soup", rating: "5/5" }
   ],
 
   Italian: [
