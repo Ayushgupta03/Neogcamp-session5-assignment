@@ -19,6 +19,12 @@ const foodDB = {
       name: "Spaghetti",
       rating: "4.5/5"
     }
+  ],
+  Indian: [
+    { name: "Chole Bhature", rating: "4/5" },
+    { name: "Rajma Chawal", rating: "5/5" },
+    { name: "Kadhai Paneer", rating: "3/5" },
+    { name: "Butter Chicken", rating: "5/5" }
   ]
 };
 
@@ -46,8 +52,8 @@ export default function App() {
               style={{
                 listStyle: "none",
                 padding: "1rem",
-                border: "1px solid #D1D5DB",
-                width: "70%",
+                border: "2px solid grey",
+                width: "80%",
                 margin: "1rem 0rem",
                 borderRadius: "0.5rem"
               }}
