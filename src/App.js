@@ -45,7 +45,7 @@ export default function App() {
       </div>
       <hr />
       <div style={{ textAlign: "left" }}>
-        <ul style={{ paddingInlineStart: "0" }}>
+        <ul>
           {foodDB[selectedGenre].map((food) => (
             <li
               key={food.name}
@@ -58,7 +58,6 @@ export default function App() {
                 borderRadius: "0.5rem"
               }}
             >
-              {" "}
               <div style={{ fontSize: "larger" }}> {food.name} </div>
               <div style={{ fontSize: "smaller" }}> {food.rating} </div>
             </li>
